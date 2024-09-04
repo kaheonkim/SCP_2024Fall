@@ -119,8 +119,13 @@ print("%s %f"%('2 divided by 3 is', 2/3))
 print("%d %s %d %s %f"%(2, 'divided by', 3, 'is', 2/3))
 
 
-
 print('%.3f'%(1))
 
+print(f"2 divided by 3 is {2/3}")
+print(f"2 divided by 3 is {2/3:.3f}")
 
-2**3/2
+
+print(f'{1:.3f}')
+
+
+
