@@ -19,6 +19,16 @@ def triangle(a,b,c):
     A = (s*(s-a)*(s-b)*(s-c))**(1/2)
     return A
 
+
+def function_wo_return(n):
+    if n % 2 == 0:
+        print(f"{n} is even")
+    else:
+        print(f"{n} is odd")
+
+def function_wo_input():
+    print("hello world")
+
 def factorial_recur(n):
     if n == 1:
         return 1
@@ -39,6 +49,9 @@ def sum1(n):
 
 def sum2(n):
     return (n*(n+1))**2//4
+
+def check_equality(n):
+    return sum1(n) == sum2(n)
 
 def saving(D, m = 100, r = 0.02):
     s = 0
