@@ -52,7 +52,7 @@ print(A)
 print(A.keys())
 print(A.values())
 
-def v(pairs):
+def factor_to_value(pairs):
     prod = 1
     basis = pairs.keys()
     for base in basis:
