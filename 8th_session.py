@@ -10,6 +10,9 @@ A = {1,1,2,3}
 # A.add(-3)
 print(list(A))
 
+LIST = [1,2,1,5]
+print(set(LIST))
+
 B = {2,3,4}
 # print(A)
 # print(len(A))
