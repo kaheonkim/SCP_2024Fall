@@ -37,6 +37,9 @@ def squares(A):
         empty.append(a**2)
     return sorted(list(set(empty)))
 
+my_set = {3, 1, 4, 2}
+print(my_set)
+
 
 A = {1:3, 4:'a','b':10}
 print(A[1])
